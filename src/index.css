@@ -6,3 +6,19 @@
   padding: 10px;
   margin: 10px;
 }
+#uid{
+  display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+  
+}
+#uid li{
+  border: 1px solid lightgray;
+  
+  margin: 10px;
+  list-style: none;
+  width: 150px;
+}
+#uid img{
+  width: 100%;
+}

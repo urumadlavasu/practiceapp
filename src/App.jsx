@@ -8,7 +8,8 @@ function App() {
     <div className="mybox">
      <h1>ReactJs application</h1>
     <Link to="/counter" >counter</Link> &nbsp;&nbsp;
-    <Link to="/todolist" >todolist</Link>
+    <Link to="/todolist" >todolist</Link>&nbsp;&nbsp;
+    <Link to="/countries">Countries</Link>&nbsp;&nbsp;
      <Outlet></Outlet>
     
     </div>
