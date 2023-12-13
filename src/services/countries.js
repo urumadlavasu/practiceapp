@@ -9,9 +9,12 @@ export const countriesApi = createApi({
     getAllCountries: builder.query({
       query: () => `/all`,
     }),
+    getCountryDetailsByName: builder.query({
+       query: (cname) => `/name/${cname}`
+    }) 
   }),
 })
 
 // Export hooks for usage in functional components, which are
 // auto-generated based on the defined endpoints
-export const { useGetAllCountriesQuery } = countriesApi
+export const { useGetAllCountriesQuery , useGetCountryDetailsByNameQuery } = countriesApi
