@@ -7,10 +7,10 @@ function Counter() {
    console.log(value)
   var dispatch = useDispatch()
   return (
-    <div className='mybox' >
-        <h1>Counter :{value}</h1>
-        <button onClick={()=>{dispatch(increment())}} >Increment</button>
-        <button onClick={()=>{dispatch(decrement())}} >Decrement</button>
+    <div className='mybox'>
+        <h1>Counter : {value}</h1>
+        <button onClick={()=>{dispatch(increment())}}>Increment</button>
+        <button onClick={()=>{dispatch(decrement())}}>Decrement</button>
     </div>
   )
 }

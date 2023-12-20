@@ -6,3 +6,51 @@
   padding: 10px;
   margin: 10px;
 }
+#products{
+  display: flex;
+  flex-wrap: wrap;
+}
+#products li {
+  width: 200px;
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+}
+#products li .bi-trash{
+      display: none;
+}
+
+#products li:hover .bi-trash{
+  display: block;
+    background-color: red;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 5px;
+    color: aliceblue;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    margin: 10px;
+}
+#products li .bi-pencil-square{
+  display: none;
+}
+
+#products li:hover .bi-pencil-square{
+display: block;
+background-color: rgb(64, 63, 156);
+width: fit-content;
+border-radius: 50%;
+padding: 5px;
+color: aliceblue;
+position: absolute;
+right: -5px;
+top: 25px;
+margin: 10px;
+}
